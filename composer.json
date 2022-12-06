@@ -1,0 +1,17 @@
+{
+    "name": "fulp/test-package",
+    "description": "test packagist",
+    "autoload": {
+        "psr-4": {
+            "Fulp\\TestPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fulp"
+        }
+    ],
+    "type": "library",
+    "minimum-stability": "dev",
+    "require": {}
+}
